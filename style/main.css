@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 30px;
+    background-color: #e5e4e2;
+
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.titulo{
+    margin: 0;
+    background: #282828;
+    padding: 10px;
+    text-align: center;
+}
+
+.periodico{
+    /*display: grid;*/
+    /*grid-template-rows: auto;*/ /* Ajusta automáticamente la altura de las filas */
+    gap: 60px; /* Espacio entre las celdas */
+    margin: auto;
+    margin-left: 18%;
+    margin-bottom: 10%;
+    
+    place-items: center; /* Centra el contenido vertical y horizontalmente */
+
+    width: 50%;
+    border-left: 2px solid #333; /* Ancho del borde, tipo (solid), y color (#333) */
+    padding: 20px;
+}
+
+.image {
+    justify-self: center; /* Centra la imagen en la columna */
+    margin-top: 5%;
+    filter: saturate(0%);
+
+}
+
+/* Puedes ajustar las clases y estilos según tus necesidades */
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    color: #EEEDEB;
+}
+
+h2{
+    font-size: 1em;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.rem-test{
+    font-size: .75em;
+}
+h1, p, img {
+    width: 100%;
+}
